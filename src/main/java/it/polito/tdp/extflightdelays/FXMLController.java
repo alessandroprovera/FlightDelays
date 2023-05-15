@@ -41,6 +41,7 @@ public class FXMLController {
 
     @FXML
     void doAnalizzaAeroporti(ActionEvent event) {
+    	this.model.creaGrafo(Integer.parseInt(this.compagnieMinimo.getText()));
 
     }
 
